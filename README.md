@@ -1,4 +1,5 @@
 # time_savers
+
 ## Introduction 
 AWS Resources Script Project 
 This project contains custom designed script for listing EC2 and EKS clusters and more. 
@@ -18,7 +19,7 @@ $ pip install boto3
 $ sudo apt update
 $ sudo apt install python3
 
-## Run the script
+## run the script
 
 1. lists all the users
 $ python3 starter.py -l 
