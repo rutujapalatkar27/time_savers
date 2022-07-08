@@ -4,7 +4,7 @@
 AWS Resources Script Project 
 This project contains custom designed script for listing EC2 and EKS clusters and more. 
 
-## prerequisites
+## Prerequisites
 1. install aws cli tool
 $ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 $ sudo installer -pkg AWSCLIV2.pkg -target /
@@ -19,7 +19,7 @@ $ pip install boto3
 $ sudo apt update
 $ sudo apt install python3
 
-## run the script
+## Run the script
 
 1. lists all the users
 $ python3 starter.py -l 
