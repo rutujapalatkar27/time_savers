@@ -10,7 +10,7 @@ This project contains custom designed script for listing EC2 and EKS clusters an
 $ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 $ sudo installer -pkg AWSCLIV2.pkg -target /
 
-2. open aws credentials file and update your programmatic access credentials
+2. You will need to have AWS API credentials configured. You can use ~/.aws/crdentials file 
 
 $ vi ~/.aws/credentials
 
